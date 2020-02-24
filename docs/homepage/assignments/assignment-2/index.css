@@ -1,0 +1,47 @@
+body {
+    font-size: 20px;
+}
+div {
+    background-color: lightgreen;
+}
+
+p {
+    background-color: red;
+}
+
+ul {
+    background-color: purple;
+}
+
+ol {
+    background-color: tomato;
+}
+
+li {
+    background-color: cyan;
+}
+
+h1 {
+    background-color: yellow;
+}
+
+h2 {
+    background-color: pink;
+}
+
+h3 {
+    background-color: orangered;
+}
+
+h4 {
+    background-color: lightsteelblue;
+}
+
+h5 {
+    background-color: salmon;
+}
+
+h6 {
+    background-color: teal;
+    color: white;
+}
