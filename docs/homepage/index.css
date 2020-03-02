@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 2px rgb(118, 245, 118);
+}
+
+body {
+    background-color: rgb(255, 255, 254);
+    color: royalblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    height: 30vw;
+    justify-content: space-between;
+    background-color: rgb(223, 235, 158);
+    align-items: center;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80vw;
+    height: 10vh;
+}
+
+#main-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.menu-item {
+    list-style: none;
+    padding: 20px;
+}
