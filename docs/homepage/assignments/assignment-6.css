@@ -1,0 +1,53 @@
+/*
+for more information about transitions, go to:
+https://www.w3schools.com/css/css3_transitions.asp
+*/
+
+.container {
+    display: inline-block;
+  
+    /* vertical-align: top; aligns all the objects
+    to the top of their parent element (which in this case
+    happens to be the body) */
+    vertical-align: top;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px;
+    height: 300px;
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px;
+  
+    box-shadow: 0px 0px 0px 0px gray;
+    transition: box-shadow 0.5s;
+  }
+  
+  #left {
+    background-color: lightpink;
+    color: white;
+  }
+  
+  #left:hover {
+    box-shadow: -8px -8px 20px 5px black;
+  }
+  
+  #right {
+    background-color: mediumpurple;
+    color: whitesmoke;
+  }
+  
+  #right:hover {
+    box-shadow: 8px 8px 20px 5px black;
+  }
+  
+  /* This is a special kind of CSS selector syntax. This translates
+  to "apply these style properties to EVERY child element of an HTML
+  form element." In this case, I'm applying a top and bottom margin
+  of 8px to each child element of the form (the label, the text input,
+  and the button). That way, they aren't all bumping up against each
+  other */
+  
+  /* try commenting out this section below to see the effect it has */
+  form > * {
+    margin: 8px 0;
+  }

@@ -1,0 +1,23 @@
+body {
+  background-color: lightpink;
+  
+}
+#container {
+  text-align: justify;
+  background-color: lightpink;
+}
+#container > div { 
+  display: inline-block;
+  vertical-align: center;
+}
+
+#container:after{
+  content: "";
+  
+  display: inline-block;
+}
+img {
+  display: inline-block;
+  width: 50%;
+  
+}
